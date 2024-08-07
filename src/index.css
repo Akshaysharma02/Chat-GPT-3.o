@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+a {
+  color: #f90000 !important;
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: rgb(255, 0, 0) !important;
+}
+
+a.active {
+  color: #fe00fa !important;
+}
