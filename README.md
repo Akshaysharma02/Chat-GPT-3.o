@@ -79,8 +79,7 @@ Ensure you have the following installed:
    Create a `.env` file in the `server` directory and add your MongoDB URI and JWT secret:
 
    ```plaintext
-   MONGODB_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
+   MONGODB_URI=your_mongodb_uri.......
    ```
 
    Create a `.env` file in the `client` directory and add your Firebase configuration:
@@ -88,11 +87,16 @@ Ensure you have the following installed:
    ```plaintext
   PORT = 3000
 DEV_MODE = development
-MONGO_URI = mongodb+srv://<username>:<password>@cluster0.s2bntxt.mongodb.net/chatgpt
+MONGO_URI =
+
+
+
+
+
 JWT_ACCESS_SECRET = 
-JWT_ACCESS_EXPIREIN = 1h
+JWT_ACCESS_EXPIREIN = 
 JWT_REFRESH_TOKEN = 
-JWT_REFRESH_EXPIREIN = 20day
+JWT_REFRESH_EXPIREIN =
 OPENAI_API_KEY = 
    ```
 
